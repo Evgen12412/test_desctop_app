@@ -11,6 +11,7 @@ def main(page: ft.Page):
     # Добавление основного экрана
     page.add(main_screen(page))
 
+
 if __name__ == '__main__':
     ft.app(
         main,
